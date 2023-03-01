@@ -1,0 +1,115 @@
+.booking_banner_section {
+    background: rgba(0, 0, 0, 0) url("C:/xampp/htdocs/MyProject/frontend-react/public/images/booking_banner.jpg") no-repeat;
+    background-size: cover;
+    height: 500px;
+    margin-top: 0px;
+    position: relative;
+    background-attachment: fixed;
+}
+
+.booking_banner_content {
+    height: 320px;
+    position: relative;
+    display: flex;
+    flex-flow: column;
+    align-items: start;
+    justify-content: center;
+}
+
+.booking_banner_content h4 {
+    text-transform: capitalize;
+    color: #fff;
+}
+.booking_banner_content .txt {
+    color: #fff;
+}
+
+.booking_banner_content p {
+    font-size: 17px;
+    line-height: 26px;
+    padding-top: 6px;
+    width: 30%;
+    color: #fff;
+}
+
+.booking_banner_section .overlay {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&0.63+0,0+100 */
+    background: -moz-linear-gradient(left, rgba(0, 0, 0, 0.63) 0%, rgba(0, 0, 0, 0) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.63) 0%, rgba(0, 0, 0, 0) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.63) 0%, rgba(0, 0, 0, 0) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a1000000', endColorstr='#00000000', GradientType=1);
+    /* IE6-9 */
+}
+
+.booking_banner_section .breadcrumb {
+    background: none;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+}
+
+.booking_banner_section .breadcrumb li {
+    font-weight: 200;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.booking_banner_section .breadcrumb .alink {
+    color: #d81b60;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.booking_banner_section .breadcrumb>li+li::before {
+    color: #ccc;
+    content: "\f105";
+    font-family: fontawesome;
+    padding: 0 5px;
+}
+
+
+
+
+
+/*------------------------9.1 our history section---------------------*/
+
+.history_details {
+    padding-top: 50px;
+}
+
+.history_details h4 {
+    color: #7b1fa2;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.history_details span.roboto {
+    color: #282828;
+    display: inline-block;
+    letter-spacing: 1px;
+    font-size: 18px;
+    margin-top: 4px;
+    margin-bottom:14px;
+}
+
+.history_details .msg{
+    padding-bottom: 40px;
+    color: #282828;
+}
+
+.history_details .singature_area .title {
+    color: #2d2d2d;
+}
+
+.history_img {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.history_img:hover {
+    transition: 02s;
+}
+

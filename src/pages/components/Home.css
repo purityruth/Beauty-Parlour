@@ -1,0 +1,78 @@
+.welcom_section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.welcom_section .section_title h3 {
+    color: #7b1fa2;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+/*------------------- 6.3 start welcome section style --------------------*/
+
+.welcom_section .section_title>p {
+    margin-bottom: 50px;
+}
+
+.welcom_section .single_feature .feature_content a {
+    display: inline-block;
+    font-family: roboto;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.welcom_section .single_feature .divider,
+.service_section .single_service .divider,
+.beautyLab_gallery_section .single_gallery .divider,
+.product_carousel_wrapper .divider {
+    background: #720f83 none repeat scroll 0 0;
+    height: 2px;
+    width: 45px;
+}
+
+.welcom_section .single_feature .i {
+    font-size: 50px;
+    color: #D5275A;
+    padding-right: 10px;
+
+}
+
+.welcom_section .single_feature {
+    align-items: flex-start;
+    display: flex;
+    flex-flow: row nowrap;
+    width: 57%;
+    position: relative;
+    padding-left: 100px;
+}
+
+.welcom_section .single_feature h6 {
+    color: #D5275A;
+}
+
+.welcom_section .single_feature:hover .i,
+.welcom_section .single_feature:hover .feature_content h6 {
+    color: #720f83;
+}
+
+.welcome_carousel_wrapper #carousel_text {
+    background: rgba(114, 15, 131, 0.8) none repeat scroll 0 0;
+    height: 200px;
+    left: 98px;
+    padding: 30px!important;
+    position: absolute;
+    top: 45%;
+    width: 100%;
+    font-size: 20px;
+}
+
+.welcome_carousel_wrapper #carousel_text p {
+    color: #fff;
+    font-weight: 500;
+    font-family: roboto;
+    letter-spacing: 1px;
+}
+

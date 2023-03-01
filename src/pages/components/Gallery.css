@@ -1,0 +1,229 @@
+.gallery_banner_section {
+    background: rgba(0, 0, 0, 0) url("C:/xampp/htdocs/MyProject/frontend-react/public/images/gallery_banner.jpg") no-repeat;
+    background-size: cover;
+    height: 400px;
+    margin-top: 0px;
+    position: relative;
+    background-attachment: fixed;
+}
+
+.gallery_banner_content {
+    height: 320px;
+    position: relative;
+    display: flex;
+    flex-flow: column;
+    align-items: start;
+    justify-content: center;
+}
+
+.gallery_banner_content h4 {
+    text-transform: capitalize;
+    color: #7b1fa2;
+}
+.gallery_banner_content .txt {
+    color: #d81b60;
+}
+
+.gallery_banner_content p {
+    font-size: 17px;
+    line-height: 26px;
+    padding-top: 6px;
+    width: 30%;
+    color: #fff;
+}
+
+.gallery_banner_section .overlay {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&0.63+0,0+100 */
+    background: -moz-linear-gradient(left, rgba(0, 0, 0, 0.63) 0%, rgba(0, 0, 0, 0) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.63) 0%, rgba(0, 0, 0, 0) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.63) 0%, rgba(0, 0, 0, 0) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a1000000', endColorstr='#00000000', GradientType=1);
+    /* IE6-9 */
+}
+
+.gallery_banner_section .breadcrumb {
+    background: none;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+}
+
+.gallery_banner_section .breadcrumb li {
+    font-weight: 200;
+    color: #d81b60;
+    text-transform: capitalize;
+}
+
+.gallery_banner_section .breadcrumb .alink {
+    color: #d81b60;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.gallery_banner_section .breadcrumb>li+li::before {
+    color: #ccc;
+    content: "\f105";
+    font-family: fontawesome;
+    padding: 0 5px;
+}
+
+
+
+
+/*===============================================
+
+                Photo Gallery
+
+=================================================*/
+
+.beautyLab_photo_gallery .gallery_wrapper {
+    margin-top: 65px;
+    display: inline-block;
+}
+.beautyLab_photo_gallery .section_title {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.beautyLab_photo_gallery .section_title h3{
+    color: #7b1fa2;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.beautyLab_photo_gallery .feltering_menu li {
+    color: #515151;
+    display: inline-block;
+}
+
+.beautyLab_photo_gallery .feltering_menu li {
+    font-size: 15px;
+    padding: 6px 15px;
+}
+
+.beautyLab_photo_gallery .feltering_menu li:hover {
+    color: #d81b60;
+}
+
+.beautyLab_photo_gallery .feltering_menu li.active {
+    color: #fff;
+    background: #d81b60 none repeat scroll 0 0;
+}
+
+.beautyLab_photo_gallery .gallery_wrapper .mix {
+    padding-right: 15px;
+    display: inline-block;
+}
+
+.beautyLab_photo_gallery .single_gallery {
+    position: relative;
+    margin-bottom: 15px;
+    display: inline-block;
+}
+.beautyLab_photo_gallery .single_gallery .img{
+    padding-right: 15px;
+    width: 300px;
+    height: auto;
+}
+.beautyLab_photo_gallery .img_overlay {
+    align-items: center;
+    background: rgba(34, 34, 34, 0.5) none repeat scroll 0 0;
+    display: flex;
+    flex-flow: column nowrap;
+    height: 100%;
+    justify-content: center;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    visibility: hidden;
+    width: 100%;
+    -webkit-transform: scale(0.2);
+    -moz-transform: scale(0.2);
+    -o-transform: scale(0.2);
+    transform: scale(0.2);
+    -webkit-transition: 0.3s linear;
+    -moz-transition: 0.3s linear;
+    -o-transition: 0.3s linear;
+    transition: 0.3s linear;
+}
+
+.img_overlay>a {
+    color: #fff;
+    display: block;
+    font-size: 34px;
+    height: 60px;
+    padding: 6px;
+    text-align: center;
+    width: 60px;
+}
+
+.beautyLab_photo_gallery .single_gallery:hover .img_overlay {
+    opacity: 1;
+    visibility: visible;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+}
+
+
+/* =========================== Book Session ================================== */
+
+.cta_section,
+.quick_support_section {
+    background: url("C:/xampp/htdocs/MyProject/frontend-react/public/images/gallerybg.jpg") no-repeat;
+    background-size: cover;
+    padding: 50px 0;
+    position: relative;
+    background-attachment: fixed;
+}
+
+.cta_overlay {
+    background: rgba(114, 15, 131, 0.85) none repeat scroll 0 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.cta_content .book_link {
+    margin: 0;
+    background-color: #d81b60;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.cta_content .book_link:hover {
+    background: #fff;
+    color: #720f83;
+    transition: 02s;
+}
+
+.cta_section .cta_content {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cta_section .cta_content .color {
+    color: #d81b60;
+}
+
+.cta_section .cta_content p {
+    color: #fff;
+    font-family: arimo;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.cta_section .cta_content p span {
+    background: #fff none repeat scroll 0 0;
+    border-radius: 4px;
+    padding: 3px 12px;
+}

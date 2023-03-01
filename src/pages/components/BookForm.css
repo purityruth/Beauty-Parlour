@@ -1,0 +1,60 @@
+.book_form {
+    background: rgba(0, 0, 0, 0) url("C:/xampp/htdocs/MyProject/frontend-react/public/images/booking_bg.jpg") no-repeat;
+    background-size: cover;
+    height: auto;
+    margin-top: 0px;
+    position: relative;
+    background-attachment: fixed;
+    padding-bottom: 100px;
+}
+
+.card {
+    background-color: #dceff0;
+}
+
+.book_section {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.book_section h3 {
+     color: #7b1fa2;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.btnn {
+    text-align: center;
+}
+
+.book_button {
+    margin: 0;
+    width: 100px;
+    background-color: #d81b60;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 6px;
+    border-color: #d81b60;
+    text-align: center;
+}
+
+.book_button:hover {
+    margin: 0;
+    width: 100px;
+    background-color: #7b1fa2;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 6px;
+    border-color: #7b1fa2;
+    text-align: center;
+}
+
+.datepicker {
+    border-radius: 5px;
+    border-color: #fff;
+    border: 1px solid rgb(207, 205, 205);
+    height: 36px;
+}

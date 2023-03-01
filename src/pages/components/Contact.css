@@ -1,0 +1,306 @@
+.contact_banner_section {
+    background: rgba(0, 0, 0, 0) url("C:/xampp/htdocs/MyProject/frontend-react/public/images/slider_img4.jpg") no-repeat;
+    background-size: cover;
+    height: 450px;
+    margin-top: 0px;
+    position: relative;
+    background-attachment: fixed;
+}
+
+.contact_banner_content {
+    height: 320px;
+    position: relative;
+    display: flex;
+    flex-flow: column;
+    align-items: start;
+    justify-content: center;
+    padding-top: 70px;
+}
+
+.contact_banner_content h4 {
+    text-transform: capitalize;
+    color: #7b1fa2;
+}
+
+.contact_banner_content p {
+    color: #7b1fa2;
+}
+
+.contact_banner_content .txt {
+    color: #ec4683;
+}
+
+.contact_banner_content p {
+    font-size: 17px;
+    line-height: 26px;
+    padding-top: 6px;
+    width: 30%;
+    color: #fff;
+}
+
+.contact_banner_section .overlay {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&0.63+0,0+100 */
+    background: -moz-linear-gradient(left, rgba(0, 0, 0, 0.63) 0%, rgba(0, 0, 0, 0) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.63) 0%, rgba(0, 0, 0, 0) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.63) 0%, rgba(0, 0, 0, 0) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a1000000', endColorstr='#00000000', GradientType=1);
+    /* IE6-9 */
+}
+
+.contact_banner_section .breadcrumb {
+    background: none;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+}
+
+.contact_banner_section .breadcrumb li {
+    font-weight: 200;
+    color: #d81b60;
+    text-transform: capitalize;
+}
+
+.contact_banner_section .breadcrumb .alink {
+    color: #d81b60;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.contact_banner_section .breadcrumb>li+li::before {
+    color: #ccc;
+    content: "\f105";
+    font-family: fontawesome;
+    padding: 0 5px;
+}
+
+
+/*------------------------9.1 our history section---------------------*/
+
+.history_details {
+    padding-top: 50px;
+}
+
+.history_details h4 {
+    color: #7b1fa2;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.history_details span.roboto {
+    color: #282828;
+    display: inline-block;
+    letter-spacing: 1px;
+    font-size: 18px;
+    margin-top: 4px;
+    margin-bottom:14px;
+}
+
+.history_details .msg{
+    padding-bottom: 40px;
+    color: #282828;
+}
+
+.history_details .singature_area .title {
+    color: #2d2d2d;
+}
+
+.contact_img {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.history_img:hover {
+    transition: 02s;
+}
+
+
+
+
+
+/* ------------------------ Contact Info Section ---------------------------- */
+
+
+.contact_info_section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.contact_info_section .section_title h3 {
+    color: #7b1fa2;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.contact_info_section h5.color_d5::before,
+.getin_section .get_in h5.color_d5::before,
+.getin_section .consultant_wrapper h5.color_d5::before,
+.comment_section h5.color_d5::before,
+.comment_form_section h5.color_d5::before {
+    background: #720f83 none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    height: 2px;
+    left: 0;
+    position: absolute;
+    width: 45px;
+}
+
+.comment_section li {
+    border-bottom: 1px solid #eee;
+    padding: 30px 0;
+}
+
+.comment_section li:last-child {
+    border-bottom: 0;
+}
+
+.comment_section ul li img {
+    display: inline-block;
+    height: 75px;
+    width: 85px;
+}
+
+.comment_section ul li .comment div {
+    display: inline-block;
+    padding-left: 20px;
+    vertical-align: top;
+    width: calc(100% - 90px);
+}
+
+.comment_section ul li h6 {
+    margin-bottom: 5px;
+}
+
+.comment_section ul li h6 a {
+    float: left;
+    color: #232428;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 2px;
+    position: relative;
+    text-transform: capitalize;
+}
+
+.comment_section ul li span {
+    color: #7f7f7f;
+    font-size: 13px;
+    font-weight: 400;
+    margin: 0 20px;
+    border-left: 1px solid;
+    padding-left: 15px;
+}
+
+.comment_section ul li a.reply {
+    color: #808080;
+    font-size: 14px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.comment_section ul li a:hover {
+    color: #d5275a;
+}
+
+.comment_section ul li a i {
+    margin-right: 6px;
+}
+
+.comment_section ul li ul {
+    padding-left: 90px;
+}
+
+.comment_section ul li ul li {
+    border-top: 1px solid #eee;
+}
+
+.comment_section ul li ul li:first-child {
+    margin-top: 30px;
+    border-bottom: 0 none;
+}
+
+.comment_section ul li ul li:last-child {
+    padding-bottom: 0;
+}
+
+
+/*----------comment form section------------*/
+
+
+.getin_section .get_in h5 {
+    color: #7b1fa2;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.getin_section .get_in .form_group {
+    display: inline-block;
+    padding-bottom: 30px;
+}
+
+.getin_section .get_in form input,
+.comment_form_section form input,
+.getin_section .get_in form textarea,
+.comment_form_section form textarea {
+    border: 1px solid #e5e5e5;
+    font-size: 15px;
+    margin-bottom: 4%;
+    padding: 10px 16px;
+}
+
+.comment_form_section form input:focus,
+.getin_section .get_in form input:focus,
+.getin_section .get_in form textarea:focus,
+.comment_form_section form textarea:focus {
+    border-color: #d5275a;
+}
+
+.getin_section .get_in form input,
+.comment_form_section form input {
+    float: left;
+    height: 45px;
+    margin-right: 4%;
+}
+
+.comment_form_section form input {
+    width: 48%;
+}
+
+.getin_section .get_in form textarea,
+.comment_form_section form textarea {
+    width: 100%;
+    resize: none;
+}
+
+.getin_section .get_in form input:nth-child(3n+3),
+.comment_form_section form input:nth-child(2n) {
+    margin-right: 0;
+}
+
+.getin_section .get_in form button.send_msg,
+.comment_form_section form button {
+    background: #d5275a none repeat scroll 0 0;
+    border: medium none;
+    border-radius: 3px;
+    color: #fff;
+    padding: 13px 30px;
+    text-transform: capitalize;
+}
+
+.getin_section .get_in form button.send_msg:hover,
+.comment_form_section form button:hover {
+    background: #720f83;
+}
+
+.getin_section .consultant_wrapper h5 {
+    color: #7b1fa2;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.getin_section .consultant_wrapper .roboto {
+    text-decoration: none;
+    color: #d81b60;
+}

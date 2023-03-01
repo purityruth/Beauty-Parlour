@@ -1,0 +1,789 @@
+<!DOCTYPE html>
+<html lang="en-US" class="no-js">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="keywords" content="responsive, template, portfolio, html, css, javascript, belal, ab belal" />
+    <meta name="author" content="AB Belal">
+    <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1" />
+    <title>Beauty Lab | Service</title>
+    
+    <!--favicon icon-->
+    <link rel="icon" href="images/fabicon.png">
+    
+    <!--google font-->
+    <link href="https://fonts.googleapis.com/css?family=Arimo:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,500,700,900" rel="stylesheet">
+
+    <!-- font awesome css -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+    <!-- flaticon css -->
+    <link rel="stylesheet" href="css/flaticon.css">
+
+    <!--html boilarplate css-->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/html-boilarplate.css">
+
+    <!--bootstrap min css-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-datetimepicker.min.css">
+
+    <!--Menuzord css-->
+    <link rel="stylesheet" href="css/menuzord.css">
+
+    <!--nice select css-->
+    <link rel="stylesheet" href="css/nice-select.css">
+
+    <!--animate css-->
+    <link rel="stylesheet" href="css/animate.min.css">
+
+    <!--slick slider css-->
+    <link rel="stylesheet" href="css/slick.slider.css">
+
+    <!--owl carousel css-->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+
+    <!--venobox css-->
+    <link rel="stylesheet" href="css/venobox.css">
+
+    <!--Padding margin css-->
+    <link rel="stylesheet" href="css/padding.margin.css">
+
+    <!-- style css -->
+    <link rel="stylesheet" href="style.css">
+
+    <!--responsive css-->
+    <link rel="stylesheet" href="css/responsive.css"> </head>
+
+<body>
+
+    <!-- ======================================= 
+            ==Start Popup search section==  
+        =======================================-->
+    <div id="custom_modal" class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+        <div class="modal-dialog modal-sm" role="document">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+            <img src="images/search_popup_logo.png" alt="search_popup_logo">
+            <form action="#" class="form-inline">
+                <input type="text" name="search" placeholder="Search here...">
+                <button><i class="fa fa-search"></i></button>
+            </form>
+            <div class="quick_search">
+                <h6 class="color_ff pos_relative ptb_30">Quick search</h6>
+                <ul>
+                    <li><a href="#">parlour</a></li>
+                    <li><a href="#">massage</a></li>
+                    <li><a href="#">yoga</a></li>
+                    <li><a href="#">spa</a></li>
+                    <li><a href="#">beauty</a></li>
+                    <li><a href="#">exparts</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- ======================================= 
+            ==End Popup search section==  
+    =======================================-->
+
+    <!-- ======================================= 
+            ==Start quick book section==  
+    =======================================-->
+    <div class="quick_booking session_booking_wrapper">
+        <p class="click_btn text-capitalize">Book a Reservation</p>
+        <p class="title">Book A Session Now and take your place for best service</p>
+        <form action="http://themebuilder.website/themeforest/beautylab/HTML/book.php" method="post" class="clearfix">
+            <input type="text" class="form-control" id="client_name" placeholder="Your Name" required />
+            <input type="text" class="form-control" id="phone_number" placeholder="Phone Number" />
+            <input type="email" class="form-control" id="client_Email" placeholder="Email Address" required />
+
+            <div class="input-group date form-control" id="datetimepicker2">
+                <input type="text" readonly="readonly" class="form-control" placeholder="Date and Time" required />
+                <span class="input-group-addon">
+                    <span class="glyphicon glyphicon-calendar"></span>
+                </span>
+            </div>
+
+            <select class="form-control wide mr_30" name="beauty-service" required>
+                <option selected>Service</option>
+                <option value="facial">Facials</option>
+                <option value="nailCare">Nail Care</option>
+                <option value="eyeCare">Eye Care</option>
+                <option value="waxing">Waxing</option>
+                <option value="makeup">Make-Up</option>
+            </select>
+
+            <select class="form-control wide" name="beauty-expart" required>
+                <option selected>Beauty Expart</option>
+                <option value="sokhina">Hero Alom</option>
+                <option value="jorina">Apo Biswas</option>
+                <option value="jerin">Jerin Shikdar</option>
+                <option value="jerin">Subrina Tasnim</option>
+            </select>
+            <button type="submit">Make a Reservation</button>
+        </form>
+    </div>
+    <!-- ======================================= 
+            ==End quick book section==  
+    =======================================-->
+
+    <!-- ======================================= 
+            ==Start Header section==  
+        =======================================-->
+    <section class="header_top">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 clearfix">
+                    <div class="opening_time pull-left"><i class="fa fa-clock-o color_d5"></i> <span class="color_dd">Opening Hour: Mon - Fri : 09:00 - 18:00</span> </div>
+                    <div class="contact_mail pull-right"> <a href="#" class="color_dd"><i class="fa fa-envelope color_d5"></i>info@beautylab.com</a> <span>/</span> <a href="#" class="color_dd"><i class="fa fa-phone color_d5"></i>1800-111-333</a> </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <header id="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="beauty">
+                        <div id="menuzord" class="menuzord">
+                            <a href="javascript:void(0)" class="menuzord-brand"><img id="logo" src="images/logo.png" alt="logo"></a>
+                            <ul class="menuzord-menu menuzord-right">
+                                <li><a href="index.html" title="Home">Home</a></li>
+                                <li class="active"><a href="service.html" title="Service">Service</a>
+                                    <ul class="dropdown triangle">
+                                        <li><a href="service_details.html">Service Details</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="shop_left_sidebar.html" title="Products">Products</a>
+                                    <ul class="dropdown triangle">
+                                        <li><a href="product_details.html">Product Details</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="booking.html" title="Booking">Booking</a></li>
+                                <li><a href="#" title="Pages">pages</a>
+                                    <ul class="dropdown triangle">
+                                        <li><a href="about.html">about us</a></li>
+                                        <li><a href="gallery.html">gallery</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#" title="Cart">Cart</a>
+                                    <div class="megamenu">
+                                        <div class="megamenu-row">
+                                            <div class="col3 clearfix">
+                                                <ul>
+                                                    <li>
+                                                        <h6>Shop Full Width</h6>
+                                                    </li>
+                                                    <li><a href="shop_fullwidth.html">Shop Full Width (4 Column)</a></li>
+                                                </ul>
+                                                <ul>
+                                                    <li>
+                                                        <h6>Shop With Sidebar</h6>
+                                                    </li>
+                                                    <li><a href="shop_left_sidebar.html">Shop (Left Sidebar)</a></li>
+                                                    <li><a href="shop_right_sidebar.html">Shop (Right Sidebar)</a></li>
+                                                </ul>
+                                            </div>
+
+                                            <div class="col3 clearfix">
+                                                <ul>
+                                                    <li>
+                                                        <h6>Shop-Eyelash</h6>
+                                                    </li>
+                                                    <li><a href="#">Beetroot collection</a></li>
+                                                    <li><a href="#">Lobster ravioli</a></li>
+                                                    <li><a href="#">Pollo farcito</a></li>
+                                                </ul>
+                                                <ul>
+                                                    <li>
+                                                        <h6>Shop-Nail care</h6>
+                                                    </li>
+                                                    <li><a href="#">organic egg</a></li>
+                                                    <li><a href="#">Beetroot collection</a></li>
+                                                </ul>
+                                            </div>
+
+                                            <div class="col6">
+                                                <div class="megamenu_carousel owl-carousel">
+                                                    <div class="single_carousel">
+                                                        <img src="images/mega_carousel1.jpg" class="img img-responsive" alt="mega_carousel">
+                                                    </div>
+                                                    <div class="single_carousel">
+                                                        <img src="images/mega_carousel2.png" class="img img-responsive" alt="mega_carousel">
+                                                    </div>
+                                                    <div class="single_carousel">
+                                                        <img src="images/mega_carousel3.png" class="img img-responsive" alt="mega_carousel">
+                                                    </div>
+                                                    <div class="single_carousel">
+                                                        <img src="images/mega_carousel4.png" class="img img-responsive" alt="mega_carousel">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!--/col-->
+                                        </div>
+                                    </div>
+                                </li>
+                                <li><a href="blog_left_sidebar_1Col.html" title="Blog">Blog</a>
+                                    <ul class="dropdown triangle">
+                                        <li><a href="blog_details.html">blog details</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="contact.html" title="Contact">Contact</a></li>
+                                <li>
+                                    <button id="search_button" type="button" data-toggle="modal" data-target=".bs-example-modal-sm"><i class="fa fa-search"></i></button>
+                                </li>
+                            </ul>
+                        </div>
+                        <!--/#menuzord-->
+                    </div>
+                    <!--/startup menu-->
+                </div>
+                <!--/col-md-12-->
+            </div>
+        </div>
+    </header>
+    <!-- ======================================= 
+            ==End Header section==  
+        =======================================-->
+
+    <!-- ======================================= 
+        ==Start banner section== 
+    =======================================-->
+    <section class="banner_section service_banner">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="banner_content">
+                        <h4 class="fw_500 color_ff">Services We Offer</h4>
+                        <p class="color_ff">Welcome to beauty lab, where you can relax and enjoy life.</p>
+                    </div>
+                    <ol class="breadcrumb">
+                        <li><a href="index.html">Home</a></li>
+                        <li class="active">service</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ======================================= 
+        ==End banner section==  
+    =======================================-->
+
+    <!-- ======================================= 
+        ==Start Service section== 
+    =======================================-->
+    <section class="service_section pt_90 pb_70">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section_title text-center">
+                        <h3 class="color_72 fw_500 pb_10">Our Services</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisici elit, sed eiusmod tempor incidunt ut labore etc.</p>
+                    </div>
+                </div>
+                <!--/col-->
+            </div>
+            <!--/row-->
+
+            <div class="row">
+                <div class="service_wrapper mt_65">
+
+                    <!--service-1-->
+                    <div class="col-md-4 col-sm-6">
+                        <div class="single_service">
+                            <div class="img"><img src="images/service_img1.jpg" alt="service_img" class="img img-responsive"></div>
+                            <div class="img_over_content text-center">
+                                <i class="flaticon-medical color_d5 mb_10"></i>
+                                <div class="divider"></div>
+                                <a href="#" class="fw_500 color_33 mtb_15">Beauty Treatment</a>
+                                <p>The power of golden ratio typography cannot be understated. </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--service-2-->
+                    <div class="col-md-4 col-sm-6">
+                        <div class="single_service">
+                            <div class="img"><img src="images/service_img2.jpg" alt="service_img" class="img img-responsive"></div>
+                            <div class="img_over_content text-center">
+                                <i class="flaticon-spa color_d5 mb_10"></i>
+                                <div class="divider"></div>
+                                <a href="#" class="fw_500 color_33 mtb_15">Spa Process</a>
+                                <p>The power of golden ratio typography cannot be understated. </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--service-3-->
+                    <div class="col-md-4 col-sm-6">
+                        <div class="single_service">
+                            <div class="img"><img src="images/service_img3.jpg" alt="service_img" class="img img-responsive"></div>
+                            <div class="img_over_content text-center">
+                                <i class="flaticon-medical-1 color_d5 mb_10"></i>
+                                <div class="divider"></div>
+                                <a href="#" class="fw_500 color_33 mtb_15">Body Massage</a>
+                                <p>The power of golden ratio typography cannot be understated. </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--service-4-->
+                    <div class="col-md-4 col-sm-6">
+                        <div class="single_service">
+                            <div class="img"><img src="images/service_img4.jpg" alt="service_img" class="img img-responsive"></div>
+                            <div class="img_over_content text-center">
+                                <i class="flaticon-hairdryer color_d5 mb_10"></i>
+                                <div class="divider"></div>
+                                <a href="#" class="fw_500 color_33 mtb_15">Hair Treatment</a>
+                                <p>The power of golden ratio typography cannot be understated. </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--service-5-->
+                    <div class="col-md-4 col-sm-6">
+                        <div class="single_service">
+                            <div class="img"><img src="images/service_img5.jpg" alt="service_img" class="img img-responsive"></div>
+                            <div class="img_over_content text-center">
+                                <i class="flaticon-hand-wash color_d5 mb_10"></i>
+                                <div class="divider"></div>
+                                <a href="#" class="fw_500 color_33 mtb_15">Manicure & Pedicure</a>
+                                <p>The power of golden ratio typography cannot be understated. </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--service-6-->
+                    <div class="col-md-4 col-sm-6">
+                        <div class="single_service">
+                            <div class="img"><img src="images/service_img6.jpg" alt="service_img" class="img img-responsive"></div>
+                            <div class="img_over_content text-center">
+                                <i class="flaticon-relax color_d5 mb_10"></i>
+                                <div class="divider"></div>
+                                <a href="#" class="fw_500 color_33 mtb_15">Body Waxing</a>
+                                <p>The power of golden ratio typography cannot be understated. </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/col-->
+
+                </div>
+                <!--/service wrapper-->
+            </div>
+            <!--/row-->
+        </div>
+    </section>
+    <!-- ======================================= 
+        ==End Service section== 
+    =======================================-->
+
+    <!-- ======================================= 
+        ==Start quick support section==  
+    =======================================-->
+    <section class="quick_support_section">
+        <div class="beautyLab_overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 col-md-12">
+                    <div class="quick_support_wrapper clearfix">
+                        <div class="single_support pull-left">
+                            <i class="fa fa-comments-o"></i>
+                            <div class="content">
+                                <h6 class="color_72 pb_5 text-capitalize">Our Contacts</h6>
+                                <p>(+254 757 133 215)</p>
+                            </div>
+                        </div>
+
+                        <div class="single_support pull-left">
+                            <i class="flaticon-school-calendar"></i>
+                            <div class="content">
+                                <h6 class="color_72 pb_5 text-capitalize">We Are Open</h6>
+                                <p>Mon - Fri : 09:00 - 18:00</p>
+                                <p>Sat - Sun : 11:00 - 16:00</p>
+                            </div>
+                        </div>
+
+                        <div class="single_support social_link pull-left">
+                            <div class="content text-center">
+                                <h6 class="color_72 pb_10 text-capitalize">Follow Us</h6>
+                                <ul>
+                                    <li><a href="www.facebook.com" target="_blank" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="www.twitter.com" target="_blank" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href="www.pinterest.com" target="_blank" title="Pinterest"><i class="fa fa-pinterest"></i></a></li>
+                                    <li><a href="www.rss.com" target="_blank" title="RSS"><i class="fa fa-rss"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/wrapper-->
+                </div>
+                <!--/col-->
+            </div>
+        </div>
+    </section>
+    <!-- ======================================= 
+        ==End quick support section== 
+    =======================================-->
+
+    <!-- ======================================= 
+        ==Start specialize section==  
+    =======================================-->
+    <section class="specialize_section pt_90 pb_50">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section_title pb_50 text-center">
+                        <h3 class="color_72 fw_500 pb_10">We Specialize In</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisici elit, sed eiusmod tempor incidunt ut labore et.</p>
+                    </div>
+                </div>
+                <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
+                    <div class="expart_wrapper pos_relative">
+
+                        <a id="popover1" tabindex="0" class="tooltipbar bar1" placement="top" role="button" data-trigger="focus">
+                            <button class="btn1"></button>
+                            <div class="span span1"></div>
+                            <div class="span span1"></div>
+                        </a>
+                        <a id="popover2" tabindex="0" class="tooltipbar bar2" role="button" data-trigger="focus">
+                            <button class="btn2"></button>
+                            <div class="span span2"></div>
+                            <div class="span span2"></div>
+                        </a>
+                        <a id="popover3" tabindex="0" class="tooltipbar bar3" role="button" data-trigger="focus">
+                            <button class="btn3"></button>
+                            <div class="span span3"></div>
+                            <div class="span span3"></div>
+                        </a>
+
+                        <div id="popover_content1" class="hidden">
+                            <a href="#" class="popover_title color_d5 fw_500 text-capitalize">Hair Treatment.</a>
+                            <p>It is not always yourself who knows best what would fit you perfectly.</p>
+                        </div>
+
+                        <div id="popover_content2" class="hidden">
+                            <a href="#" class="popover_title color_d5 fw_500 text-capitalize">Body Massaging.</a>
+                            <p>It is not always yourself who knows best what would fit you perfectly.</p>
+                        </div>
+
+                        <div id="popover_content3" class="hidden">
+                            <a href="#" class="popover_title color_d5 fw_500 text-capitalize">Skin Treatment.</a>
+                            <p>It is not always yourself who knows best what would fit you perfectly.</p>
+                        </div>
+
+                        <img src="images/service_img.png" alt="expart" class="img img-responsive">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ======================================= 
+        ==End specialize section== 
+    =======================================-->
+
+    <!-- ======================================= 
+        ==Start Testimonial section==  
+    =======================================-->
+    <section class="testimonial_section ptb_90">
+        <div class="testimonial_overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2">
+                    <div class="section_title pb_60 text-center">
+                        <h3 class="color_ff fw_500 pb_10">Testimonials</h3>
+                    </div>
+
+                    <div class="testimoial_wrapper owl-carousel">
+                        <!--testimonial-1-->
+                        <div class="single_testimonial text-center">
+                            <a href="#"><img src="images/author3.jpg" alt="author"></a>
+                            <p class="testimoinal_txt color_ff pt_25">I just wanted to thank you for providing a great celebration party for me. Your staff did an excellent job and the Makeup was superb. Everyone was impressed.Thanks again!</p>
+                            <div class="author color_ff"><a href="#">Thomas Jefferson</a><span>CEO of TF</span></div>
+                        </div>
+
+                        <!--testimonial-2-->
+                        <div class="single_testimonial text-center">
+                            <a href="#"><img src="images/author1.jpg" alt="author"></a>
+                            <p class="testimoinal_txt color_ff pt_25">I just wanted to thank you for providing a great celebration party for me. Your staff did an excellent job and the Makeup was superb. Everyone was impressed.Thanks again!</p>
+                            <div class="author color_ff"><a href="#">Thomas Jefferson</a><span>CEO of TF</span></div>
+                        </div>
+
+                        <!--testimonial-3-->
+                        <div class="single_testimonial text-center">
+                            <a href="#"><img src="images/author2.jpg" alt="author"></a>
+                            <p class="testimoinal_txt color_ff pt_25">I just wanted to thank you for providing a great celebration party for me. Your staff did an excellent job and the Makeup was superb. Everyone was impressed.Thanks again!</p>
+                            <div class="author color_ff"><a href="#">Thomas Jefferson</a><span>CEO of TF</span></div>
+                        </div>
+                        <!--/testimonial-->
+                    </div>
+                    <!--/testimoial wrapper-->
+                </div>
+                <!--/col-->
+            </div>
+        </div>
+    </section>
+    <!-- ======================================= 
+        ==End Testimonial section== 
+    =======================================-->
+
+    <!-- ======================================= 
+        ==Start pricing plan section==  
+    =======================================-->
+    <section class="price_plan_section ptb_90 ptb_xs_60 ptb_xxs_60">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section_title pb_60 text-center">
+                        <h3 class="color_72 fw_500 pb_10">pricing plans</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisici elit, sed eiusmod tempor incidunt ut labore et.</p>
+                    </div>
+                </div>
+            </div>
+            <!--/row-->
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="pricing_wrapper clearfix">
+
+                        <!--plan-1-->
+                        <div class="single_price_plan single_pack text-center pull-left">
+                            <div class="price_header">
+                                <h3 class="fw_300 color_33">Single Pack</h3>
+                                <div class="price_divider"></div>
+                                <p class="color_99">From <span class="color_d5 fw_700">$29</span> Per Months</p>
+                            </div>
+                            <div class="price_body">
+                                <div class="price_content">
+                                    <h6 class="color_33 fw_500"><i class="fa fa-check color_d5"></i>Entry from 2 pm to 8 pm</h6>
+                                    <p>Curabitur ac lacus arcu. Sed vehicula lectus auctor viverra. Vehicula.</p>
+                                </div>
+
+                                <div class="price_content">
+                                    <h6 class="color_33 fw_500"><i class="fa fa-check color_d5"></i>Manicure & pedicure 7x ses.</h6>
+                                    <p>Curabitur ac lacus arcu. Sed vehicula lectus auctor viverra. Vehicula.</p>
+                                </div>
+                            </div>
+                            <div class="price_footer">
+                                <a href="E.html" class="get_start">Get Started Now</a>
+                            </div>
+                        </div>
+
+                        <!--plan-2-->
+                        <div class="single_price_plan premium text-center pull-left">
+                            <div class="price_header">
+                                <h3 class="fw_300 color_33">Premium</h3>
+                                <div class="price_divider"></div>
+                                <p class="color_99">From <span class="color_d5 fw_700">$49</span> Per Months</p>
+                            </div>
+                            <div class="price_body">
+                                <div class="price_content">
+                                    <h6 class="color_33 fw_500"><i class="fa fa-check color_d5"></i>Entry from 12 pm to 8 pm</h6>
+                                    <p>Curabitur ac lacus arcu. Sed vehicula lectus auctor viverra. Vehicula.</p>
+                                </div>
+                                <div class="price_content">
+                                    <h6 class="color_33 fw_500"><i class="fa fa-check color_d5"></i>Manicure & pedicure 8x ses.</h6>
+                                    <p>Curabitur ac lacus arcu. Sed vehicula lectus auctor viverra. Vehicula.</p>
+                                </div>
+                            </div>
+                            <div class="price_footer">
+                                <a href="E.html" class="get_start">Get Started Now</a>
+                            </div>
+                        </div>
+
+                        <!--plan-3-->
+                        <div class="single_price_plan family_pack text-center pull-left">
+                            <div class="price_header">
+                                <h3 class="fw_300 color_33">Family Pack</h3>
+                                <div class="price_divider"></div>
+                                <p class="color_99">From <span class="color_d5 fw_700">$99</span> Per Months</p>
+                            </div>
+                            <div class="price_body">
+                                <div class="price_content">
+                                    <h6 class="color_33 fw_500"><i class="fa fa-check color_d5"></i>Entry from 10 pm to 8 pm</h6>
+                                    <p>Curabitur ac lacus arcu. Sed vehicula lectus auctor viverra. Vehicula.</p>
+                                </div>
+                                <div class="price_content">
+                                    <h6 class="color_33 fw_500"><i class="fa fa-check color_d5"></i>Body & foot massages</h6>
+                                    <p>Curabitur ac lacus arcu. Sed vehicula lectus auctor viverra. Vehicula.</p>
+                                </div>
+                            </div>
+                            <div class="price_footer">
+                                <a href="E.html" class="get_start">Get Started Now</a>
+                            </div>
+                        </div>
+                        <!--/single price plan-->
+                    </div>
+                    <!--/wrapper-->
+                </div>
+                <!--/col-->
+            </div>
+            <!--/row-->
+        </div>
+    </section>
+    <!-- ======================================= 
+        ==End pricing plan section== 
+    =======================================-->
+
+    <!-- ======================================= 
+        ==Start call to action section==  
+    =======================================-->
+    <section class="cta_section" data-enllax-ratio="0.15" data-enllax-direction="vertical">
+        <div class="cta_overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <div class="cta_content">
+                        <p>Book a session and get up to <span class="color_d5">25%</span> discount!</p>
+                        <a href="booking.html">Book A Session Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ======================================= 
+        ==End call to action section== 
+    =======================================-->
+
+    <!-- ======================================= 
+        ==Start footer widget section==  
+    =======================================-->
+    <section class="footer_widget_section ptb_90">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="single_widget contact_widget">
+                        <img alt="logo" src="images/widget-logo.png">
+                        <p>The beauty lab is a luxury beauty &amp; spa solution. The beauty spa strives to deliver top class.</p>
+                        <address>
+                                <p class="address"><i class="fa fa-home"></i><span>Address:</span> 121 King St, Melbourne Vic 3000, Australia.</p>
+                                <p class="phone"><i class="fa fa-phone"></i><span>Phone:</span> +66 1800-111-333</p>
+                                <p class="email"><i class="fa fa-envelope"></i><span>Email:</span> <a href="#">info@beautylab.com</a></p>
+                                <p class="web"><i class="fa fa-globe"></i><span>web:</span> <a href="#">www.Beautylab.com</a></p>
+                        </address>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="single_widget recent_post_widget">
+                        <h5>Recent Posts</h5>
+                        <ul>
+                            <li>
+                                <p>The power of golden ratio typography cannot be understated. By choosing the..</p>
+                                <span>June 23, 2016</span>
+                                <a href="#">read more</a>
+                            </li>
+                            <li>
+                                <p>The power of golden ratio typography cannot be understated. By choosing the..</p>
+                                <span>June 23, 2016</span>
+                                <a href="#">read more</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="single_widget newsletter_widget">
+                        <h5>Newsletter</h5>
+                        <form action="http://themebuilder.website/themeforest/beautylab/HTML/newsletter.php" method="post" class="clearfix">
+                            <input type="text" placeholder="Name" id="name" class="form-control">
+                            <input type="email" placeholder="Email" id="email" class="form-control">
+                            <button type="submit">Send</button>
+                        </form>
+                    </div>
+                </div>
+                <!--/col-->
+            </div>
+        </div>
+    </section>
+    <!-- ======================================= 
+        ==End footer widget section== 
+    =======================================-->
+
+    <!-- ======================================= 
+        ==Start footer section==  
+    =======================================-->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p>&copy; 2017 All rights reserved. Developed <i class="fa fa-heart"></i> by <a target="_blank" href="https://themeforest.net/user/theme_builder">Theme Builder</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- ======================================= 
+        ==End footer section== 
+    =======================================-->
+
+    <!-- ======================================= 
+        ==Start scroll top==  
+    =======================================-->
+    <div class="scroll_top not_visible"><i class="fa fa-angle-up"></i></div>
+    <!-- =======================================
+        ==End scroll top==  
+    =======================================-->
+    <!-- jQuary library -->
+    <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="js/modernizr-2.6.2.min.js"></script>
+
+    <!-- others jQuary plugins -->
+    <script type="text/javascript" src="js/plugins.js"></script>
+
+    <!--bootstrap min js-->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <!--enlux parallux js-->
+    <script type="text/javascript" src="js/smoothscroll.min.js"></script>
+
+    <!--Menuzord js-->
+    <script type="text/javascript" src="js/menuzord.js"></script>
+
+    <!--nice select js-->
+    <script type="text/javascript" src="js/jquery.nice-select.min.js"></script>
+
+    <!--slick slider js-->
+    <script type="text/javascript" src="js/slick.slider.js"></script>
+
+    <!--owl carousel js-->
+    <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+
+    <!--date time picker js-->
+    <script type="text/javascript" src="js/moment.js"></script>
+    <script type="text/javascript" src="js/bootstrap-datetimepicker.min.js"></script>
+
+    <!--mixitup min js-->
+    <script type="text/javascript" src="js/mixitup.min.js"></script>
+
+    <!--masonary js-->
+    <script type="text/javascript" src="js/masonry.pkgd.min.js"></script>
+
+    <!--venobox js-->
+    <script type="text/javascript" src="js/venobox.min.js"></script>
+    
+    <!--price filter js-->
+    <script type="text/javascript" src="js/jshashtable-2.1_src.js"></script>
+    
+    <!--particle js-->
+    <script type="text/javascript" src="js/particles.js"></script>
+    <script type="text/javascript" src="js/particle.control.js"></script>
+    
+    <!--parallax-->
+    <script type="text/javascript" src="js/parallax.min.js"></script>
+    
+    <!--vide js for background video-->
+    <script type="text/javascript" src="js/jquery.vide.js"></script>
+    
+    <!--facts counter js-->
+    <script type="text/javascript" src="js/jquery.counterup.min.js"></script>
+    <script type="text/javascript" src="js/waypoints.min.js"></script>
+
+    <!-- all jQuary activation code here and always it will be bottom of all script tag -->
+    <script type="text/javascript" src="js/activation-jQuary.js"></script>
+</body>
+
+</html>

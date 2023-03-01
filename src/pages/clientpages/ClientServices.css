@@ -1,0 +1,14 @@
+.list_service {
+    padding-top: 10px;
+}
+
+.list_service_section {
+    padding-top: 100px;
+}
+
+.list_service_section .section_title h3 {
+    padding-top: 40px;
+    color: #7b1fa2;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
